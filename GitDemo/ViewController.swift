@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    func setupUI() {
+        
+        self.navigationController?.isNavigationBarHidden = true
+    }
 
 }
 
